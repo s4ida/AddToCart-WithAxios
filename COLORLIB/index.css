@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    
+}
+.logo{
+    width: 140px;
+    height: 40px;
+    background-image: url(https://preview.colorlib.com/theme/onedu/assets/img/logo/logo.png.webp);
+    background-size: cover;
+  
+
+    margin-left: 20px;
+}
+.colorlibinp{
+    color: #3C3B37;
+    background: #fff;
+    border: 1px solid #B9B9B9;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+left: 200px;   
+}
+.searchbutton{
+    width: 50px;
+    height: 50px;
+    color: #3C3B37;
+    background:transparent;
+    border: 1px solid #B9B9B9;
+    border-radius: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0px;
+    position: absolute;
+    left: 440;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+.navdiv{
+width: auto;
+height: 100%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.colorlibnav{
+    width: 400px;
+   margin-right: 20px;
+
+
+}
+.colorlibnav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.basket{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.basket i{
+    font-size: 30px;
+    color: #5A4E8C;
+}
+.signbutton{
+    width: 100px;
+    height: 100%;
+    background-color: #5A4E8C;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A4E8C;
+}
+#customers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBox {
+    width: 20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cardBox img{
+    width: 80%;
+    height: 200px;
+    
+}
+.cardTextBox {
+height: 30%;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    transition: .5s;
+    color: white;
+}
+button:hover {
+    background-color: orangered;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.cartButton {
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+}
+.cartCount {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
